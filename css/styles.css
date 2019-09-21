@@ -282,6 +282,7 @@ nav h1 a {
   nav h1{
 
     font-size: smaller;
+    padding-top: 10px;
 
   }
 }
