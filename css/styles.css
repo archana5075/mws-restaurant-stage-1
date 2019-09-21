@@ -275,3 +275,24 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/*  Media queries */
+
+@media screen and (min-width: 450px) and (min-width: 750px){
+
+  #restaurants-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  #restaurants-list li{
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+  }
+
+}
