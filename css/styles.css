@@ -58,6 +58,7 @@ nav {
 }
 nav h1 {
   margin: auto;
+  padding: 20px;
 }
 nav h1 a {
   color: #fff;
@@ -277,6 +278,13 @@ nav h1 a {
 }
 
 /*  Media queries */
+@media screen and (max-width: 450px){
+  nav h1{
+
+    font-size: smaller;
+
+  }
+}
 
 @media screen and (min-width: 450px) and (min-width: 750px){
 
